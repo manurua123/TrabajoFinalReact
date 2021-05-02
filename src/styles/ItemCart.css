@@ -1,0 +1,76 @@
+.Cart {
+  padding-top: 6em;
+  width: 95%;
+  margin: 0px 2.5%;
+}
+.Cart h3 {
+  color: #dddddd;
+}
+.montoTotal{
+  margin-bottom: 1em;
+}
+.tituloCarrito {
+  margin: 0.5em 40% 2.5% 0%;
+  color: #dddddd;
+  font-size: 2em;
+  width: 30%;
+  font-weight: bold;
+  border-bottom: 2px solid #ffc93c;
+ 
+}
+.botonesCarrito {
+  list-style: none;
+  text-align: right;
+}
+.limpiarCarro {
+  font-size: medium;
+  background: none;
+  margin-bottom: 5em;
+  margin-top: 1em;
+  border: none;
+  color: #dddddd;
+}
+.limpiarCarro:hover {
+  color: #ffc93c;
+}
+.CartItemList {
+  text-align: center;
+}
+.ItemCart {
+  background: #dddddd;
+  width: 100%;
+  margin-top: 0.2em;
+  list-style: none;
+  color: #283149;
+}
+.ItemCart li {
+  display: inline-block;
+  width: 20%;
+  text-align: left;
+  padding: 0px;
+}
+.ItemCart .imagen {
+  font-size: 6em;
+}
+
+.titulo p {
+  font-size: small;
+  color: #283149;
+}
+.noCart {
+  padding-top: 5em;
+  text-align: center;
+}
+.noCart .fas {
+  font-size: 10em;
+  margin-top: 30px;
+  color: #ffc93c;
+}
+.noCart h3 {
+  padding: 30px 0px;
+  color: #dddddd;
+}
+
+
+@media screen and (max-width: 960px) {
+}
